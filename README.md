@@ -14,4 +14,11 @@ eureka:
       defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
   instance:
     prefer-ip-address: true
+---
+
+#distributed-tracing using zipkin & micrometer
+management:
+  tracing:
+    sampling:
+      probability: 1.0
 ```
