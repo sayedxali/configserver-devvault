@@ -3,6 +3,7 @@ Config-Server For `DevVault-Microservice` Project.
 
 Configuration for:
 - Eureka Client
+- Distributed Tracing (with Zipkin & Micrometer)
 
 ```yaml
 #eureka-client configuration
